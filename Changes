@@ -1,0 +1,17 @@
+---
+version: 0.12
+date:    Mon Jun 26 14:43:01 CDT 2006
+changes:
+- Better testing.
+
+---
+version: 0.11
+date:    Sun Mar 12 21:15:07 PST 2006
+changes:
+- Patch from ISHIGAKI Kenichi. orz...
+
+---
+version: 0.10
+date:    Sun Mar 12 10:05:28 PST 2006
+changes:
+- Maiden voyage
