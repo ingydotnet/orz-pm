@@ -11,6 +11,9 @@ BEGIN {
     $testdir = -e 't' ? 't' : 'test';
     unlink "$testdir/lib/Testorz.pmc";
 }
+END {
+    unlink "$testdir/lib/Testorz.pmc";
+}
 
 use Testorz;
 

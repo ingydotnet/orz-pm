@@ -1,4 +1,9 @@
 ---
+version: 0.15
+date:    Mon Jul 21 17:12:39 PDT 2014
+changes:
+- Committed a test artifact. Fixed.
+---
 version: 0.14
 date:    Mon Jul 21 17:02:36 PDT 2014
 changes:
