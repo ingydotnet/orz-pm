@@ -1,7 +1,7 @@
 =meta: 0.0.1
 
 name: orz
-version: 0.16
+version: 0.17
 abstract: Total Failure
 homepage: https://metacpan.org/release/orz
 
@@ -22,13 +22,14 @@ requires:
 devel:
   git: https://github.com/ingydotnet/orz-pm
   bug: https://github.com/ingydotnet/orz-pm/issues
-  irc: irc.freenode.net#ingy
+  irc: irc.freenode.net#pkg
 
 =cpan:
   include_testbase: true
 
 =travis:
   type: perl
+  irc: irc.freenode.net#pkg
   testbase: true
   test:
     requires:
