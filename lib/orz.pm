@@ -1,6 +1,6 @@
 use strict; use warnings;
 package orz;
-our $VERSION = '0.17';
+our $VERSION = '0.18';
 
 use Module::Compile -base;
 
