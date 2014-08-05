@@ -3,6 +3,8 @@ orz
 
 Total Failure
 
+<badge travis coveralls ingydotnet/orz-pm>
+
 = Synopsis
 
   use orz;

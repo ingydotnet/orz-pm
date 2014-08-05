@@ -10,6 +10,10 @@ See http://github.com/ingydotnet/swim-pm#readme
 
 orz - Total Failure
 
+=for html
+<a href="https://travis-ci.org/ingydotnet/orz-pm"><img src="https://travis-ci.org/ingydotnet/orz-pm.png" alt="orz-pm"></a>
+<a href="https://coveralls.io/r/ingydotnet/orz-pm?branch=master"><img src="https://coveralls.io/repos/ingydotnet/orz-pm/badge.png" alt="orz-pm"></a>
+
 =head1 SYNOPSIS
 
     use orz;
