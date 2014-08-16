@@ -1,35 +1,34 @@
-=meta: 0.0.1
+=meta: 0.0.2
 
 name: orz
-version: 0.22
+version: 0.23
 abstract: Total Failure
 homepage: https://metacpan.org/release/orz
-
+language: perl
 license: perl
-copyright: 2006-2014. Ingy döt Net.
+copyright: 2006-2014
+
 author:
   name: Ingy döt Net
   email: ingy@cpan.org
+  homepage: http://ingy.net
   github: ingydotnet
   twitter: ingydotnet
   freenode: ingy
-  homepage: http://ingy.net
-
-requires:
-  perl: 5.8.1
-  Module::Compile: 0.21
 
 devel:
   git: https://github.com/ingydotnet/orz-pm
   bug: https://github.com/ingydotnet/orz-pm/issues
   irc: irc.freenode.net#pkg
 
-=cpan:
+requires:
+  perl: 5.8.1
+  Module::Compile: 0.21
+
+=zild:
   include_testbase: true
 
 =travis:
-  type: perl
-  irc: irc.freenode.net#pkg
   testbase: true
   test:
     requires:
