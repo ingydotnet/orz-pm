@@ -1,7 +1,7 @@
 =meta: 0.0.2
 
 name: orz
-version: 0.23
+version: 0.24
 abstract: Total Failure
 homepage: https://metacpan.org/release/orz
 language: perl
@@ -27,9 +27,3 @@ requires:
 
 =zild:
   include_testbase: true
-
-=travis:
-  testbase: true
-  test:
-    requires:
-      Spiffy: 0
