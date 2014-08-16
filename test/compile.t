@@ -1,18 +1,16 @@
 use strict;
-use File::Basename;
-use lib dirname(__FILE__) . '/lib', 'inc';
+my $t; use lib ($t = -e 't' ? 't' : 'test') . '/lib', 'inc';
 
 use Test::Base tests => 1;
 
 no_diff;
 
-my $testdir;
 BEGIN {
-    $testdir = -e 't' ? 't' : 'test';
-    unlink "$testdir/lib/Testorz.pmc";
+    $t = -e 't' ? 't' : 'test';
+    unlink "$t/lib/Testorz.pmc";
 }
 END {
-    unlink "$testdir/lib/Testorz.pmc";
+    unlink "$t/lib/Testorz.pmc";
 }
 
 use Testorz;
@@ -25,7 +23,7 @@ sub fix_up {
 }
 
 sub fix_name {
-    s/t\//$testdir\//;
+    s/t\//$t\//;
 }
 
 __DATA__
